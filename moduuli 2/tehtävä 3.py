@@ -1,0 +1,5 @@
+pituus = int(input("anna kanta"))
+korkeus = int(input("anna korkeus"))
+piiri = (pituus * 2 + korkeus * 2)
+ala = (pituus * korkeus)
+print (f"pinta ala on{ala}ja piiri on {piiri}")
